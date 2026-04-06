@@ -31,9 +31,15 @@ LOF Plots (Histogram, Scatterplot, Boxplot): These visualizations aid in identif
 Software Tools Utilized by me which were  leveraged  from the suite of R packages for data manipulation, visualization, and statistical analysis are:
 
  base R: Used for loading the dataset into the R environment.
+ 
  dplyr: Employed for removing unnecessary columns from the dataset.
+ 
  visdat: Utilized to create a heatmap visualizing the missing data patterns.
+ 
  naniar: Implemented Little's MCAR test to assess the randomness of missing values.
+ 
  mice: Applied PMM for imputing missing values.
+ 
  ggplot2:  Used for creating visualizations, including outlier detection plots and density plots
+ 
 dbscan: Utilized for calculating LOF scores to identify multivariate outliers.
